@@ -195,7 +195,7 @@ In addition to the mandatory variables, you can also set the following optional 
 
 - `PING_INTERVAL` : The time in ms you want the servers to be pinged each time to avoid sleeping (If you're on some PaaS). Defaults to `1200` or 20 minutes.
 
-- `USE_SESSION_FILE` : Use session files for client(s) rather than storing the pyrofork sqlite database in the memory
+- `USE_SESSION_FILE` : Use session files for client(s) rather than storing the pyrogram sqlite database in the memory
 
 ### For making use of Multi-Client support
 
@@ -246,7 +246,7 @@ You can contact either via my [Telegram Group](https://xn--r1a.click/AlteredVoid
 - Me
 - [eyaadh](https://github.com/eyaadh) for his awesome [Megatron Bot](https://github.com/eyaadh/megadlbot_oss).
 - [BlackStone](https://github.com/eyMarv) for adding multi-client support.
-- [Dan Tès](https://telegram.dog/haskell) for his [pyrofork Library](https://github.com/pyrofork/pyrofork)
+- [Dan Tès](https://telegram.dog/haskell) for his [pyrogram Library](https://github.com/pyrogram/pyrogram)
 - [TheHamkerCat](https://github.com/TheHamkerCat)
 
 ## Copyright

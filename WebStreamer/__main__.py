@@ -6,7 +6,7 @@ import asyncio
 import logging
 from .vars import Var
 from aiohttp import web
-from pyrofork import idle
+from pyrogram import idle
 from WebStreamer import utils
 from WebStreamer import StreamBot
 from WebStreamer.server import web_server
@@ -21,7 +21,7 @@ logging.basicConfig(
               logging.FileHandler("streambot.log", mode="a", encoding="utf-8")],)
 
 logging.getLogger("aiohttp").setLevel(logging.DEBUG if Var.DEBUG else logging.ERROR)
-logging.getLogger("pyrofork").setLevel(logging.INFO if Var.DEBUG else logging.ERROR)
+logging.getLogger("pyrogram").setLevel(logging.INFO if Var.DEBUG else logging.ERROR)
 logging.getLogger("aiohttp.web").setLevel(logging.DEBUG if Var.DEBUG else logging.ERROR)
 
 server = web.AppRunner(web_server())

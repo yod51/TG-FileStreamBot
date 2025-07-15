@@ -2,13 +2,13 @@
 # Coding : Jyothis Jayanth [@EverythingSuckz]
 
 import logging
-from pyrofork import filters, errors
+from pyrogram import filters, errors
 from WebStreamer.vars import Var
 from urllib.parse import quote_plus
 from WebStreamer.bot import StreamBot, logger
 from WebStreamer.utils import get_hash, get_name
-from pyrofork.enums.parse_mode import ParseMode
-from pyrofork.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.enums.parse_mode import ParseMode
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
 @StreamBot.on_message(

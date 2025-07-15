@@ -6,7 +6,7 @@ import os
 import os.path
 from ..vars import Var
 import logging
-from pyrofork import Client
+from pyrogram import Client
 
 logger = logging.getLogger("bot")
 
