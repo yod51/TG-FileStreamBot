@@ -1,8 +1,8 @@
 # This file is a part of TG-FileStreamBot
 # Coding : Jyothis Jayanth [@EverythingSuckz]
 
-from pyrogram import filters
-from pyrogram.types import Message
+from pyrofork import filters
+from pyrofork.types import Message
 
 from WebStreamer.vars import Var 
 from WebStreamer.bot import StreamBot

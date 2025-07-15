@@ -5,7 +5,7 @@ import asyncio
 import logging
 from os import environ
 from ..vars import Var
-from pyrogram import Client
+from pyrofork import Client
 from . import multi_clients, work_loads, sessions_dir, StreamBot
 
 logger = logging.getLogger("multi_client")

@@ -4,12 +4,12 @@ import logging
 from WebStreamer import Var
 from typing import Dict, Union
 from WebStreamer.bot import work_loads
-from pyrogram import Client, utils, raw
+from pyrofork import Client, utils, raw
 from .file_properties import get_file_ids
-from pyrogram.session import Session, Auth
-from pyrogram.errors import AuthBytesInvalid
+from pyrofork.session import Session, Auth
+from pyrofork.errors import AuthBytesInvalid
 from WebStreamer.server.exceptions import FIleNotFound
-from pyrogram.file_id import FileId, FileType, ThumbnailSource
+from pyrofork.file_id import FileId, FileType, ThumbnailSource
 
 logger = logging.getLogger("streamer")
 

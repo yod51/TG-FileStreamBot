@@ -1,9 +1,9 @@
 import hashlib
-from pyrogram import Client
-from pyrogram.types import Message
-from pyrogram.file_id import FileId
+from pyrofork import Client
+from pyrofork.types import Message
+from pyrofork.file_id import FileId
 from typing import Any, Optional, Union
-from pyrogram.raw.types.messages import Messages
+from pyrofork.raw.types.messages import Messages
 from WebStreamer.server.exceptions import FIleNotFound
 from datetime import datetime
 
